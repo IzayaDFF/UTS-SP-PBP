@@ -63,7 +63,13 @@ a {
     align-self: center;
 }
 
-.content {
+footer {
+    text-align: center;
+    font-family: Scientifica;
+}
+
+/* start of index.html */
+.content-index {
     font-family: Scientifica;
     background: url("../assets/bgkeyboard1.jpg") no-repeat center;
     background-size: cover;
@@ -79,4 +85,33 @@ a {
     justify-content: center;
     text-align: center;
     width: 100%;
+}
+.pembuka h1 {
+    padding: 5px;
+    background-color: black;
+}
+/* end of index.html */
+
+/* start of about.html */
+.content-about {
+    display: flex;
+    font-family: Scientifica;
+    font-size: 18;
+    height: 86vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;;
+    border: solid;
+    border-color: inherit;
+}
+
+.content-about p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.profile{
+    margin-left: 20px;
+    height: 160px;
 }
