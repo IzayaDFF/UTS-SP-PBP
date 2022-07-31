@@ -34,7 +34,6 @@ a {
 }
 
 .navbar {
-    overflow: hidden;
     display: flex;
     font-family: Scientifica;
     margin-bottom: 10px;
@@ -127,14 +126,33 @@ footer {
 
 /* start of portofolio.html */
 .content-portofolio {
-    display: flex;
-    font-family: Scientifica;
-    height: 86vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     width: 100%;
     border: solid;
     border-color: inherit;
+    box-sizing: border-box;
+    font-family: Scientifica;
+    height: 86vh;
+    overflow : hidden;
+}
+
+.content-portofolio h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-portofolio {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 30px 30px;
+}
+
+.porto {
+    width: 100%;
+    height: 100%;
+    border: thin solid #AEC6CF;
 }
 /* end of portofolio.html */
