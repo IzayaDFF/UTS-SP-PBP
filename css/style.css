@@ -181,3 +181,57 @@ footer {
     justify-content: space-around;
 }
 /* end of contact.html */
+
+/* start of blog.html */
+.content-blog {
+    width: 100%;
+    border: solid;
+    border-color: inherit;
+    box-sizing: border-box;
+    font-family: Scientifica;
+    height: 86vh;
+    overflow : hidden;
+}
+
+.content-blog h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-blog {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 30%);
+    grid-gap: 30px;
+}
+
+.blog1 img {
+    width: 100%;
+}
+
+.blog2 img {
+    width: 100%;
+}
+
+.baca {
+    background-color: #AEC6CF;
+    text-decoration: none;
+    border: none;
+    justify-content: center;
+}
+
+.nomhal {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nomhal a {
+    color:#AEC6CF;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/* end of blog html */
