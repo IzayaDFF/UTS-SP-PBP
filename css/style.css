@@ -43,7 +43,7 @@ a {
 
 .navteks-container a {
     text-align: center;
-    font-size: 24;
+    font-size: 28;
     margin-left: 14px;
     padding: 14px 16px;
 }
@@ -102,7 +102,7 @@ footer {
 .content-about {
     display: flex;
     font-family: Scientifica;
-    font-size: 18;
+    font-size: 20;
     height: 86vh;
     align-items: center;
     justify-content: center;
@@ -114,12 +114,12 @@ footer {
 }
 
 .content-about p {
-    margin-left: 100px;
+    margin-left: 60px;
     margin-right: 100px;
 }
 
 .profile{
-    margin-left: 20px;
+    margin-left: 60px;
     height: 160px;
 }
 /* end of about.html */
