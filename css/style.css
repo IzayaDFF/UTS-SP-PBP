@@ -174,4 +174,10 @@ footer {
     justify-content: center;
 }
 
+.icontact {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+}
 /* end of contact.html */
